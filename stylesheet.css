@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "LINESeedSans";
+    src: url(./Resource/LINESeedSans_Rg.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+.nav-button {
+    font-family: LINESeedSans, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    font-size: 25px;
+    color: #b88a44;
+}
+
+.left-list,
+.right-list {
+    list-style: none;
+    display: flex;
+}
+
+.left-list {
+    gap: 35px;
+}
+
+.right-list {
+    font-size: 30px;
+    color: #b88a44;
+    gap: 5px;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin: 0;
+}

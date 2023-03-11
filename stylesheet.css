@@ -15,7 +15,7 @@ body {
 .header {
     width: 100%;
     height: 90vh;
-    background: rgba(4,57,39,1);
+    background: #252d20;
     display: flex;
     flex-direction: column;
     
@@ -107,6 +107,47 @@ nav {
     width: 100px;
 }
 
-.img {
+.main-content {
+    width: 100%;
+    height: 75vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img,
+.information {
+    display: flex;
+    gap: 2.5%;
+    padding: 0 5%;
+}
+
+.img {
+    height: 65%;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #374430;
+    border-radius: 15px;
+}
+
+.information {
+    height: 40%;
+}
+
+.information div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    background-color: #374430;
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
 }
